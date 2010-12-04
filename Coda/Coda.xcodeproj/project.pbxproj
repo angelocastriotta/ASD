@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		171DD78F12AA48B800AD3F5D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 171DD78E12AA48B800AD3F5D /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		171DD78812AA48B800AD3F5D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		171DD78A12AA48B800AD3F5D /* Coda */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Coda; sourceTree = BUILT_PRODUCTS_DIR; };
+		171DD78D12AA48B800AD3F5D /* Coda.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Coda.1; sourceTree = "<group>"; };
+		171DD78E12AA48B800AD3F5D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		171DD78712AA48B800AD3F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		171DD77D12AA48B800AD3F5D = {
+			isa = PBXGroup;
+			children = (
+				171DD78412AA48B800AD3F5D /* Source */,
+				171DD78512AA48B800AD3F5D /* Documentation */,
+				171DD78B12AA48B800AD3F5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		171DD78412AA48B800AD3F5D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				171DD78E12AA48B800AD3F5D /* main.cpp */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		171DD78512AA48B800AD3F5D /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				171DD78D12AA48B800AD3F5D /* Coda.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		171DD78B12AA48B800AD3F5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				171DD78A12AA48B800AD3F5D /* Coda */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		171DD78912AA48B800AD3F5D /* Coda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 171DD79212AA48B800AD3F5D /* Build configuration list for PBXNativeTarget "Coda" */;
+			buildPhases = (
+				171DD78612AA48B800AD3F5D /* Sources */,
+				171DD78712AA48B800AD3F5D /* Frameworks */,
+				171DD78812AA48B800AD3F5D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coda;
+			productName = Coda;
+			productReference = 171DD78A12AA48B800AD3F5D /* Coda */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		171DD77F12AA48B800AD3F5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Kube Partners";
+			};
+			buildConfigurationList = 171DD78212AA48B800AD3F5D /* Build configuration list for PBXProject "Coda" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 171DD77D12AA48B800AD3F5D;
+			productRefGroup = 171DD78B12AA48B800AD3F5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				171DD78912AA48B800AD3F5D /* Coda */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		171DD78612AA48B800AD3F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				171DD78F12AA48B800AD3F5D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		171DD79012AA48B800AD3F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		171DD79112AA48B800AD3F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		171DD79312AA48B800AD3F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		171DD79412AA48B800AD3F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		171DD78212AA48B800AD3F5D /* Build configuration list for PBXProject "Coda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				171DD79012AA48B800AD3F5D /* Debug */,
+				171DD79112AA48B800AD3F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		171DD79212AA48B800AD3F5D /* Build configuration list for PBXNativeTarget "Coda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				171DD79312AA48B800AD3F5D /* Debug */,
+				171DD79412AA48B800AD3F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 171DD77F12AA48B800AD3F5D /* Project object */;
+}
